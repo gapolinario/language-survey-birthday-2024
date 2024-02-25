@@ -95,3 +95,5 @@ As a last observable, I'm looking for predictor of multilingualism. Consider Fre
 |Spanish |62% |
 |English |55% |
 |German |55% |
+
+Thank you to all participants for joining, and remember to do statistics responsibly. This sample is very small, and doesn't represent any overarching trends.
