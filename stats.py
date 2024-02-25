@@ -86,7 +86,7 @@ print_tally_by_value(all_langs_dict,'i')
 
 # Threshold for predicting number of languages
 thresh = 4
-thresh_index = 'L4'
+thresh_index = cols[thresh]
 
 # Probability that a person speaks geq threshold languages,
 # for each language
@@ -94,7 +94,10 @@ prob_cond = {}
 
 for lang, num_speakers in all_langs_dict.items():
 
-    if num_speakers > 1:
+    condition = num_speakers > 1
+    #condition = True
+
+    if condition:
 
         # number of speakers of language lang that speak more than thresh languages
         gt_thresh = 0
@@ -107,5 +110,5 @@ for lang, num_speakers in all_langs_dict.items():
 
         prob_cond[lang] = gt_thresh / num_speakers
 
-print('\nLanguage : Probability that speaker speaks 4+ languages')
+print(f'\nLanguage : Probability that speaker speaks {thresh}+ languages')
 print_tally_by_value(prob_cond,'f')

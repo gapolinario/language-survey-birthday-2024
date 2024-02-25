@@ -83,7 +83,7 @@ Next, a list of all languages mentioned, and the number of speakers of each of t
 | Swedish  |  1 |
 | Wolof  |  1 |
 
-As a last observable, I'm looking for predictor of multilingualism. Consider French, for instance. The following numbers represent: What is the probability that a person speaks four or more languages, given that they speak French? This probability is 90%, as the table shows.
+As a last observable, I'm looking for predictor of multilingualism. Consider French, for instance. The following numbers represent: What is the probability that a person speaks four or more languages, given that they speak French? This probability is 90%, as the table shows. Only languages spoken by more than one person were considered for this statistic.
 
 | Language | Probability to speak 4+ languages |
 |--|--|
