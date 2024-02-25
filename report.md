@@ -3,8 +3,10 @@
 Gabriel Apolinário, February 25, 2024
 
 For my birthday this year, I had a celebration and did an informal survey with my friends on the languages they speak. Everyone was asked
+
 1. Which languages they speak
 2. And to rank them in order of skill
+
 There were 22 participants, hence very small statistics. Here are the results of the survey.
 
 Let's start with first languages, with Spanish and German being the most popular.
@@ -85,7 +87,7 @@ Next, a list of all languages mentioned, and the number of speakers of each of t
 
 As a last observable, I'm looking for predictor of multilingualism. Look at French in the table, for instance. The following number represents: What is the probability that a person in this group speaks four or more languages, given that they speak French? This probability is 90%, as the table shows. Only languages spoken by more than one person were considered for this statistic.
 
-| Language | Probability to speak 4+ languages |
+| Language | Probability of speaking 4+ languages |
 |--|--|
 |Italian |100% |
 |Latin |100%  |
