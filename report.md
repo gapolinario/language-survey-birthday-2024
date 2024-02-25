@@ -2,10 +2,10 @@
 
 Gabriel Apolinário, February 25, 2024
 
-For my birthday this year, I had a celebration and did an informal survey with my friends on they languages they speak. Everyone was asked
+For my birthday this year, I had a celebration and did an informal survey with my friends on the languages they speak. Everyone was asked
 1. Which languages they speak
 2. And to rank them in order of skill
-And here are the results of the survey.
+There were 22 participants, hence very small statistics. Here are the results of the survey.
 
 Let's start with first languages, with Spanish and German being the most popular.
 
@@ -19,7 +19,7 @@ Let's start with first languages, with Spanish and German being the most popular
 | Italian     |  2 |
 | Serbian     |  1 |
 
-Then, notice that English is the second language of almost everyone.
+Then, notice that English is the second language of almost all participants.
 
 | Language | L2 speakers |
 |--|--|
@@ -43,7 +43,7 @@ And German the most common third language.
 
 In the next table, we see a histogram of the number of languages spoken by everyone. For instance, 9 persons speak 3 languages.
 
-| Languages | Persons |
+| Number of Languages | Frequency |
 |--|--|
 | 2   |  1   |
 | 3   |  9   |
@@ -54,12 +54,14 @@ In the next table, we see a histogram of the number of languages spoken by every
 
 With this table one can compute some basic statistical observables related to the number of languages spoken:
 
-Mean: 4.2
-Mode: 3.0
-Median: 4.0
-Standard deviation: 1.8
+| Observable | Value |
+| -- | -- |
+| Mean | 4.2 |
+| Mode | 3.0 |
+| Median | 4.0 |
+| Standard deviation | 1.8 |
 
-Next, a list of all languages, and how many speakers of each of them, at any level.
+Next, a list of all languages mentioned, and the number of speakers of each of them, at any level.
 
 | Language | Number of speakers |
 |--|--|
@@ -81,7 +83,7 @@ Next, a list of all languages, and how many speakers of each of them, at any lev
 | Swedish  |  1 |
 | Wolof  |  1 |
 
-As a last observable, I'm looking for a language that predicts multilingualism. The following numbers represent: For instance, consider French. What is the probability that a person speaks four or more languages, given that they speak French? This probability is 90%, as the table shows.
+As a last observable, I'm looking for predictor of multilingualism. Consider French, for instance. The following numbers represent: What is the probability that a person speaks four or more languages, given that they speak French? This probability is 90%, as the table shows.
 
 | Language | Probability to speak 4+ languages |
 |--|--|
